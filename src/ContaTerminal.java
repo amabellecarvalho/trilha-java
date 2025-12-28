@@ -13,7 +13,6 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o número da Conta!");
         int numero = scanner.nextInt();
 
-        // Limpando o buffer do teclado
         scanner.nextLine();
 
         scanner.close();
